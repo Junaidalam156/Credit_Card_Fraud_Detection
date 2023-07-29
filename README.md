@@ -1,6 +1,4 @@
-# Credit Card Fraud Detection - Classification
-
-**Complete Video Tutorial:** https://youtu.be/v14ydtOuOr4
+# Credit Card Fraud Detection
 
 # Dataset Information
 
@@ -12,8 +10,6 @@ This dataset presents transactions that occurred in two days, where we have 492 
 It contains only numerical input variables which are the result of a PCA transformation. Unfortunately, due to confidentiality issues, we cannot provide the original features and more background information about the data. Features V1, V2, … V28 are the principal components obtained with PCA, the only features which have not been transformed with PCA are 'Time' and 'Amount'. Feature 'Time' contains the seconds elapsed between each transaction and the first transaction in the dataset. The feature 'Amount' is the transaction Amount, this feature can be used for example-dependant cost-sensitive learning. Feature 'Class' is the response variable and it takes value 1 in case of fraud and 0 otherwise.
 
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
-
-**Download link:** https://www.kaggle.com/mlg-ulb/creditcardfraud
 
 # Libraries
 
@@ -27,5 +23,3 @@ Given the class imbalance ratio, we recommend measuring the accuracy using the A
 - Logistic Regression
 - Random Forest
 - XGBoost
-  
-**Best Model F1 Score:** 87.00
